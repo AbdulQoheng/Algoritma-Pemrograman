@@ -30,7 +30,7 @@ public class Praktikum_3 {
         }
         System.out.println("");
         System.out.println("");
-        System.out.println("Mencari Nilai Terbesar dan Terkeci beserta indexnya : ");
+        System.out.println("========== Mencari Nilai Terbesar dan Terkeci beserta indexnya ==========");
         int Max=data[0], Min=data[0];
         int indexMax = 0, indexMin = 0;
         for (int i = 0; i < data.length; i++) {
@@ -48,7 +48,7 @@ public class Praktikum_3 {
         System.out.println("Nilai terkecil ["+indexMin+"] ==> "+Min);
         
         System.out.println("");
-        System.out.println("Mencari Nilai rata - rata : ");
+        System.out.println("========== Mencari Nilai rata - rata ==========");
         int penjumlahan = 0;
         double ratarata;
         for (int i = 0; i < data.length; i++) {
@@ -58,7 +58,7 @@ public class Praktikum_3 {
         System.out.println("nilai rata - rata adalah : "+ratarata);
         
         System.out.println("");
-        System.out.println("Penjumlahan index genap dan ganjil : ");
+        System.out.println("========== Penjumlahan index genap dan ganjil ==========");
         int nimgenap = 0;
         int nimganjil = 0;
         
@@ -69,11 +69,11 @@ public class Praktikum_3 {
                 nimganjil += data[i];
             }
         }
-        System.out.println("penjumlahan index genap dari Nim ganjil : "+nimganjil);
-        System.out.println("penjumlahan index ganjil dari Nim genap : "+nimgenap);
+        System.out.println("penjumlahan index genap dari Mahasiswa dengan Nim ganjil : "+nimganjil);
+        System.out.println("penjumlahan index ganjil dari Mahasiswa dengan Nim genap : "+nimgenap);
         
         System.out.println("");
-        System.out.println("Mencari ganjil dan genap dari penjumlahan index : ");
+        System.out.println("========= Mencari ganjil dan genap dari penjumlahan index ==========");
         if(nimgenap%2 == 0){
             System.out.println(nimgenap+" adalah bilaingan genap");
         }else{
@@ -87,7 +87,7 @@ public class Praktikum_3 {
         }
         
         System.out.println("");
-        System.out.println("Mengurutkan data :");
+        System.out.println("========== Mengurutkan data ==========");
         Arrays.sort(data);
         for (int i = 0; i < data.length; i++) {
             System.out.print(data[i]+" ");
@@ -108,13 +108,13 @@ public class Praktikum_3 {
             input =indata.readLine();
             data1[i]=Integer.parseInt(input);
         }
-        System.out.println("Nilai yang di inputkan : ");
+        System.out.println("=========== Nilai yang di inputkan ==========");
         for (int i = 0; i < data1.length; i++) {
             System.out.print(data1[i]+"  ");
         }
         System.out.println("");
         System.out.println("");
-        System.out.println("Mencari Nilai Terbesar dan Terkeci beserta indexnya : ");
+        System.out.println("========== Mencari Nilai Terbesar dan Terkeci beserta indexnya ==========");
         int Max1=data1[0], Min1=data1[0];
         int indexMax1 = 0, indexMin1 = 0;
         for (int i = 0; i < data1.length; i++) {
@@ -132,7 +132,7 @@ public class Praktikum_3 {
         System.out.println("Nilai terkecil ["+indexMin1+"] ==> "+Min1);
         
         System.out.println("");
-        System.out.println("Mencari Nilai rata - rata : ");
+        System.out.println("========== Mencari Nilai rata - rata ==========");
         int penjumlahan1 = 0;
         double ratarata1;
         for (int i = 0; i < data1.length; i++) {
@@ -142,7 +142,7 @@ public class Praktikum_3 {
         System.out.println("nilai rata - rata adalah : "+ratarata1);
         
         System.out.println("");
-        System.out.println("Penjumlahan index genap dan ganjil : ");
+        System.out.println("========== Penjumlahan index genap dan ganjil ==========");
         int nimgenap1 = 0;
         int nimganjil1 = 0;
         
@@ -157,7 +157,7 @@ public class Praktikum_3 {
         System.out.println("penjumlahan index ganjil dari Nim genap : "+nimgenap1);
         
         System.out.println("");
-        System.out.println("Mencari ganjil dan genap dari penjumlahan index : ");
+        System.out.println("========== Mencari ganjil dan genap dari penjumlahan index ==========");
         if(nimgenap1%2 == 0){
             System.out.println(nimgenap1+" adalah bilaingan genap");
         }else{
@@ -171,7 +171,7 @@ public class Praktikum_3 {
         }
         
         System.out.println("");
-        System.out.println("Mengurutkan data :");
+        System.out.println("=========== Mengurutkan data ==========");
         Arrays.sort(data1);
         for (int i = 0; i < data1.length; i++) {
             System.out.print(data1[i]+" ");
