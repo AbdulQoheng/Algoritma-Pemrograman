@@ -18,6 +18,9 @@ public class Praktikum_1 {
         String a;
         String b;
         String c;
+        int d;
+        int e;
+        int f;
         
         BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
         
@@ -28,8 +31,13 @@ public class Praktikum_1 {
         System.out.print("Masukkan data ketiga :");
         c = dataIn.readLine();
         System.out.println("Data yang di masukkan adalah = "+a+", "+b+", "+c);
-        
-        
+        System.out.print("Masukkan angka pertama :");
+        d = Integer.parseInt(dataIn.readLine());
+        System.out.print("Masukkan angka kedua :");
+        e = Integer.parseInt(dataIn.readLine());
+        System.out.print("Masukkan angka ketiga :");
+        f = Integer.parseInt(dataIn.readLine());
+        System.out.println("Jumlah dari angka yang dimasukkan = "+(d+e+f));
     }
     
 }
