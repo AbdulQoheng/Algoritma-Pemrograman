@@ -119,8 +119,7 @@ public class Praktikum_5 {
                 
             }
             System.out.println();
-            
-            
+                        
         }
     }
 
